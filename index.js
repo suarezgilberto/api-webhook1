@@ -18,7 +18,7 @@ const sendQuickReply = require('./utils/quick-reply'),
 // env = require('./env');
 
 // webhook setup
-app.listen(3000, () => console.log('webhook is listening'));
+app.listen(process.env.PORT || 3000, () => console.log('webhook is listening'));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 

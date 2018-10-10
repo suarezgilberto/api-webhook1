@@ -1,20 +1,17 @@
 {
-  "name": "hop2inbox_bot",
+  "name": "api-webhook1",
   "version": "0.0.1",
-  "description": "Handover Protocol to Page Inbox example",
+  "description": "Webhook para controlar el protocolo de traspaso de bot facebook",
   "main": "index.js",
-  "author": "Tudor Săpunaru",
-  "contributors": [
-    {
-      "name": "Alex Muramoto",
-      "url": "https://www.github.com/amuramoto"
-    }
-  ],
+  "scripts" : {
+    "start" : "node index" 
+  },
+  "author": "Gilberto Suarez",
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.17.1",
+    "body-parser": "^1.18.2",
     "dotenv": "^6.1.0",
-    "express": "^4.15.2",
-    "request": "^2.80.0"
+    "express": "^4.16.3",
+    "request": "^2.88.0"
   }
 }

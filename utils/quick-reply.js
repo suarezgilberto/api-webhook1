@@ -13,7 +13,7 @@ const api = require('./api');
 // Send a quick reply message
 function sendQuickReply(psid, text, title, postback_payload) {
   
-  console.log('SENDING QUICK REPLY');
+  console.log('SENDING QUICK REPLY Ejecutivo   ' + postback_payload);
   
   let payload = {};
   

@@ -6,7 +6,7 @@
   "scripts" : {
     "start" : "node index" 
   },
-  "author": "Gilberto Suarez",
+  "author": "Gilberto  Suarez",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.2",
